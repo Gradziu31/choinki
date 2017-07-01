@@ -1,0 +1,1444 @@
+/*
+Theme Name: Choinki
+Theme URI: https://wordpress.org/themes/twentyfourteen/
+Author: Gradziu31
+Author URI: https://gniazdow.pl
+Description: In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.notranslate{
+	margin-top: 25px!important;
+}
+
+
+body{
+	background-image: url("images/c.jpg");
+	background-attachment: fixed;
+}
+
+@media screen and (max-width: 767px){
+	.container{
+	width: 375px;
+	margin: 0 auto;
+	position:relative;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.container{
+	width: 1170px;
+	margin: 0 auto;
+	position:relative;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.container{
+	width: 1170px;
+	margin: 0 auto;
+	position:relative;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.container{
+	width: 1170px;
+	margin: 0 auto;
+	position:relative;
+}
+}
+
+.container{
+	margin: 0 auto;
+	position:relative;
+}
+
+/***************************/
+/***************************/
+/*******LEWA STRONA*********/
+/***************************/
+/***************************/
+
+/* Logo */
+@media screen and (max-width: 767px){
+	.logo_lewa_strona{
+	height: 180px;
+	}
+
+	.logo_lewa_strona img{
+	height: 120px;
+	margin-top: 30px;
+	margin-left: 10%;
+	}
+
+	.nazwa_firmy{
+	padding-top: 50px;
+	position: absolute;
+	padding-left: 50%;
+	}
+
+	.opis_dzialalnosci{
+	font-size: 14px;
+	padding-left: 50%;
+	position: absolute;
+	padding-top: 90px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.logo_lewa_strona{
+	float: left;
+	height: 180px;
+	}
+
+	.logo_lewa_strona img{
+	padding-left: 10px;
+	height: 120px;
+	margin-top: 30px;
+	z-index: -1;
+	opacity: 0.6;
+	}
+
+	.nazwa_firmy{
+	padding-right: 20px;
+	float: right;
+	padding-top: 50px;
+	z-index: 1;
+	font-weight:bold;
+	}
+
+	.opis_dzialalnosci{
+	font-size: 14px;
+	font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 1199px){
+	.logo_lewa_strona{
+	float: left;
+	height: 180px;
+	}
+
+	.logo_lewa_strona img{
+	padding-left: 10px;
+	height: 120px;
+	margin-top: 30px;
+	}
+
+	.nazwa_firmy{
+	padding-right: 20px;
+	float: right;
+	padding-top: 50px;
+	}
+
+	.opis_dzialalnosci{
+	font-size: 12px;
+	margin-top: -10px;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.logo_lewa_strona{
+	float: left;
+	height: 240px;
+	}
+
+	.logo_lewa_strona img{
+	padding-left: 30px;
+	height: 140px;
+	margin-top: 60px;
+	}
+
+	.nazwa_firmy{
+	padding-right: 20px;
+	float: right;
+	padding-top: 70px;
+	}
+
+	.opis_dzialalnosci{
+	font-size: 14px;
+	margin-top: -10px;
+	}
+}
+
+/*WSPÓLNE CECHY */
+	.logo_lewa_strona{
+	background-color:;
+	width: 26%;
+	}
+
+	.opis_dzialalnosci{
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.nazwa_firmy{
+		font-family: 'Raleway', sans-serif;
+	}
+
+
+	.logo_lewa_strona img{
+	position: absolute;
+	float: left;
+	z-index: -1;
+	}
+
+	.nazwa_firmy{
+	font-size: 2.1em;
+	}
+
+	.opis_dzialalnosci{
+	float: right;
+	margin-right: 15px;
+	clear: both;
+	z-index: 1;
+	}
+
+/* Menu boczne */
+@media screen and (max-width: 767px){
+	.menu_boczne_lewa_strona{
+	height: 420px;
+	width: 100%;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+	}
+	.menu_z_lewej_napis{
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+	}
+	.menu_z_lewej_napis li{
+	margin-right: 15px;
+	margin-top: -10px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.menu_boczne_lewa_strona{
+	height: 430px;
+	width: 26%;
+	}
+	.menu_z_lewej_napis li{
+	display:none;
+	}
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+	.menu_boczne_lewa_strona{
+	height: 430px;
+	width: 26%;
+}
+.menu_z_lewej_napis li{
+	display:none;
+	}
+}
+
+@media screen and (min-width: 1200px){
+.menu_boczne_lewa_strona{
+	height: 430px;
+	width: 26%;
+}
+
+.menu_z_lewej_napis li{
+	display:none;
+	}
+}
+
+.menu_boczne_lewa_strona{
+	float: left;
+	background-color: #0052ae;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	font-family: 'Raleway', sans-serif;
+
+
+	-webkit-border-bottom-right-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+border-bottom-right-radius: 15px;
+
+}
+
+
+
+.menu_z_lewej_napis{
+	background-color: #003877;
+	height: 80px;
+	color: white;
+	font-size: 30px;
+	padding-top: 18px;
+	padding-left: 30px;
+
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-left-radius: 15px;
+
+
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Sociale */
+@media screen and (max-width: 767px){
+	.sociale_lewa_strona{
+	display: none;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.sociale_lewa_strona img{
+	margin-left: 40px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.sociale_lewa_strona {
+	min-height: 820px;
+	}
+}
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.sociale_lewa_strona img{
+	margin-left: 60px;
+	}
+}
+
+
+@media screen and (min-width: 1200px){
+	.sociale_lewa_strona img{
+	margin-left: 85px;
+	}
+}
+
+/* WSPÓLNE CECHY */
+.sociale_lewa_strona img{
+	margin-top: 55px;
+}
+
+.sociale_lewa_strona{
+	float: left;
+	width: 26%;
+}
+
+/* Szybki kontakt */
+@media screen and (max-width: 767px){
+	.szybki_kontakt_lewa_strona{
+	display: none;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.szybki_kontakt_lewa_strona{
+	width: 25%;
+	height: 370px;
+}
+	.szybki_kontakt_dane p{
+	margin-left: 30px;
+	color: white;
+	margin-top: 10px;
+	font-size: 16px;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.szybki_kontakt_lewa_strona{
+	width: 25.25%;
+	height: 425px;
+}
+	.szybki_kontakt_dane p{
+	margin-left: 40px;
+	color: white;
+	margin-top: 15px;
+	font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.szybki_kontakt_lewa_strona{
+	width: 25.25%;
+	height: 425px;
+}
+
+
+
+.szybki_kontakt_dane p{
+	margin-left: 40px;
+	color: white;
+	margin-top: 15px;
+	font-size: 18px;
+	}
+
+}
+
+
+/* WSPÓLNE CECHY */
+.szybki_kontakt_lewa_strona{
+	background-color: #0052ae;
+	position: absolute;
+	left: auto;
+	bottom: 0;
+
+
+-webkit-border-top-left-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-topleft: 15px;
+
+-moz-border-radius-bottomleft: 15px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topright: 15px;
+border-top-right-radius: 15px;
+}
+
+.szybki_kontakt_dane p{
+	font-family: 'Poiret One', cursive;
+}
+
+
+@media screen and (max-width: 767px){
+	.szybki_kontakt_tekst{
+	font-size: 1.7em;
+	padding-left: 20px;
+	padding-top: 20px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.szybki_kontakt_tekst{
+	font-size: 1.7em;
+	padding-left: 15px;
+	padding-top: 20px;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.szybki_kontakt_tekst{
+	font-size: 2em;
+	padding-left: 30px;
+	padding-top: 18px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.szybki_kontakt_tekst{
+	font-size: 2em;
+	padding-left: 30px;
+	padding-top: 18px;
+	}
+}
+
+/* WSPÓLNE CECHY */
+.szybki_kontakt_tekst{
+	background-color: #003877;
+	height: 80px;
+	color: white;
+
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topright: 15px;
+border-top-right-radius: 15px;
+
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-left-radius: 15px;
+
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/***************************/
+/***************************/
+/*******PRAWA STRONA********/
+/***************************/
+/***************************/
+
+/* Menu górne */
+@media screen and (max-width: 767px){
+	.menu_gorne_prawa_strona{
+	display: none;
+	}
+
+	.menu_gorne_prawa_strona nav li a {
+	font-size: 1.3em;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 20px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.menu_gorne_prawa_strona{
+	height: 60px;
+	width: 74%;
+	}
+
+	.menu_gorne_prawa_strona nav li a {
+	font-size: 1em;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	}
+
+	.menu_gorne_prawa_strona nav img{
+	margin-right: 15px;
+	margin-top: 10px;
+	float: right;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.menu_gorne_prawa_strona{
+	height: 70px;
+	width: 74%;
+	}
+
+	.menu_gorne_prawa_strona nav li a {
+	font-size: 1.3em;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+	}
+
+	.menu_gorne_prawa_strona nav img{
+	margin-right: 25px;
+	margin-top: 14px;
+	float: right;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.menu_gorne_prawa_strona{
+	height: 80px;
+	width: 74%;
+	}
+
+	.menu_gorne_prawa_strona nav li a {
+	font-size: 1.5em;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 18px;
+	}
+	.menu_gorne_prawa_strona nav img{
+	margin-right: 25px;
+	margin-top: 18px;
+	float: right;
+}
+}
+
+/* WSPÓLNE CECHY */
+.menu_gorne_prawa_strona{
+	float: right;
+	background: #0052ae;
+	font-weight: bold;
+
+-webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.menu_gorne_prawa_strona nav ul li{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* BEZ ZMIAN*/
+.menu_gorne_prawa_strona nav ul {
+	width: 100%;
+	list-style: none;
+}
+
+.menu_gorne_prawa_strona nav li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+
+.menu_gorne_prawa_strona nav img{
+	display: block;
+}
+
+/* Slider */
+@media screen and (max-width: 767px){
+	.slider_prawa_strona{
+	display: none;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.slider_prawa_strona{
+	min-height: 295px!important;
+	}
+	.carousel-inner{
+	max-height: 295px!important;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.slider_prawa_strona{
+	min-height: 390px!important;
+	}
+	.carousel-inner{
+	max-height: 390px!important;
+	}
+}
+
+@media screen and (min-width: 1200px){
+.carousel-inner{
+	max-height: 470px!important;
+	}
+}
+
+.slider_prawa_strona{
+	float: right;
+	width: 74%;
+	min-height: 470px;
+}
+
+/* Pod sliderem */
+@media screen and (max-width: 767px){
+	.zdjecia_pod_sliderem_prawa_strona{
+	display: none;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.zdjecia_pod_sliderem_prawa_strona{
+	height: 300px;
+	width: 74%;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.zdjecia_pod_sliderem_prawa_strona{
+	height: 355px;
+	width: 74%;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.zdjecia_pod_sliderem_prawa_strona{
+	height: 355px;
+	width: 74%;
+}
+}
+
+.zdjecia_pod_sliderem_prawa_strona{
+	float: right;
+	background: lightblue;
+}
+
+
+/* Lorem Ipsum */
+@media screen and (max-width: 767px){
+	.lorem_ipsum_prawa_strona{
+	width: 100%;
+	padding-top: 25px;
+	font-size: 2em;
+
+-webkit-border-top-left-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-webkit-border-bottom-right-radius: 15px;
+-moz-border-radius-topright: 15px;
+-moz-border-radius-bottomright: 15px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.lorem_ipsum_prawa_strona{
+	width: 74%;
+	padding-top: 15px;
+	font-size: 3em;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+.lorem_ipsum_prawa_strona{
+	width: 74%;
+	padding-top: 15px;
+	font-size: 3em;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.lorem_ipsum_prawa_strona{
+	width: 74%;
+	padding-top: 15px;
+	font-size: 3em;
+
+
+
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-bottom-left-radius: 15px;
+
+-webkit-border-bottom-right-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+border-bottom-right-radius: 15px;
+}
+}
+
+
+.lorem_ipsum_prawa_strona{
+	text-align: center;
+	float: right;
+	background: #e7e7e7;
+	height: 85px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Miejsce na tekst */
+@media screen and (max-width: 767px){
+	.miejsce_na_tekst_prawa_strona{
+	width: 100%;
+	margin-top: -20px;
+	min-height: 400px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.miejsce_na_tekst_prawa_strona{
+	width: 74%;
+	margin-top: -20px;
+	min-height: 600px;
+	margin-bottom: 300px;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.miejsce_na_tekst_prawa_strona{
+	width: 74%;
+	margin-top: -15px;
+	min-height: 375px;
+	margin-bottom: 300px;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.miejsce_na_tekst_prawa_strona{
+	width: 74%;
+	max-width: 74%!important;
+	margin-top: 0px;
+	min-height: 375px;
+	min-height: 700px;
+	margin-bottom: 300px;
+}
+}
+
+.miejsce_na_tekst_prawa_strona{
+	float: right;
+	text-align: center;
+}
+
+.miejsce_na_tekst_prawa_strona a{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.miejsce_na_tekst_prawa_strona a:hover{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.miejsce_na_tekst_prawa_strona a:active{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+/* Stopka */
+@media screen and (max-width: 767px){
+	.stopka_prawa_strona{
+	width: 92%;
+	height: 300px!important;
+	margin-bottom: -300px;
+
+
+
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-leftright: 15px;
+border-bottom-left-radius: 15px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.stopka_prawa_strona{
+	width: 71%;
+	}
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+	.stopka_prawa_strona{
+	width: 71.70%;
+	}
+}
+@media screen and (min-width: 1200px){
+	.stopka_prawa_strona{
+	width: 72.20%;
+	}
+}
+
+
+.stopka_prawa_strona{
+	background: #7d7d7d;
+	height: 280px;
+	position: absolute;
+	bottom: 0;
+	right: 15px;
+
+
+
+-webkit-border-bottom-right-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+border-bottom-right-radius: 15px;
+}
+
+/* Stopka STYLOWANIE ELEMENTÓW W STOPCE */
+@media screen and (max-width: 767px){
+	.stopka_menu{
+	display: none;
+	}
+	.stopka_linki{
+		display: none;
+	}
+	.stopka_tekst{
+		display: none;
+	}
+
+	.stopka_kontakt{
+	height: 150px;
+	width: 100%;
+}
+	.nazwa_firmy_stopka{
+	margin-right:20%;
+	margin-top: -31%;
+	font-size: 2em;
+	float: right;
+	clear:both;
+	}
+
+	.opis_dzialalnosci_stopka{
+	margin-right:20%;
+	float: right;
+	clear: both;
+	margin-top: -21%;
+	}
+
+	.stopka_kontakt img:first-child{
+	height: 130px;
+	margin-left:15%;
+	margin-top: 20px;
+}
+
+	.location{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 28%;
+}
+	.phone{
+	position: absolute;
+	margin-left: 28%;
+	}
+
+	.phone_tekst{
+		margin-left:37%;
+		margin-top:-15px;
+	}
+
+	.location_tekst{
+		margin-left:37%;
+		margin-top:-10px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.stopka_menu{
+	float:left;
+	height: 150px;
+	width: 22%;
+	}
+	.stopka_menu p{
+	color: white;
+	font-weight: bolder;
+	font-size: 22px;
+	margin-left: 31%;
+	margin-top: 40px;
+	}
+	.stopka_menu ul li{
+	margin-left: 31%;
+	line-height: 2;
+	}
+	.stopka_menu ul li a{
+	color: white;
+	}
+
+
+	.stopka_linki{
+	float:left;
+	height: 150px;
+	width: 22%;
+	}
+	.stopka_linki_tytul{
+	margin-left: 20px;
+	margin-top: 40px;
+	font-weight: bolder;
+	font-size: 22px;
+	color: white;
+	}
+	.stopka_linki_artykuly{
+	margin-left: 20px;
+	color: white;
+	line-height: 1.4;
+	}
+
+
+
+
+
+	.stopka_tekst{
+	display: none;
+	}
+	.stopka_tekst_temat{
+	display: none;
+	}
+	.stopka_tekst_artykul{
+	display: none;
+	}
+
+
+
+
+
+	.stopka_kontakt{
+	float:left;
+	height: 150px;
+	width: 50%;
+	}
+	.stopka_kontakt_logo{
+	height: 80px;
+	padding-left: 30px;
+	margin-top: 25px;
+	float:left;
+	}
+	.nazwa_firmy_stopka{
+	font-size: 2em;
+	float: right;
+	margin-right: 50px;
+	padding-top: 10px;
+	}
+	.opis_dzialalnosci_stopka{
+	float: right;
+	margin-right: 40px;
+	margin-top: -20px;
+	}
+	.location{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -40px;
+	}
+	.phone{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: -40px;
+	}
+	.phone_tekst{
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	color: white;
+	}
+	.location_tekst{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	.stopka_menu{
+	float:left;
+	height: 150px;
+	width: 22%;
+	}
+	.stopka_menu p{
+	color: white;
+	font-weight: bolder;
+	font-size: 22px;
+	margin-left: 31%;
+	margin-top: 40px;
+	}
+	.stopka_menu ul li{
+	margin-left: 31%;
+	line-height: 2;
+	}
+	.stopka_menu ul li a{
+	color: white;
+	}
+
+
+	.stopka_linki{
+	float:left;
+	height: 150px;
+	width: 22%;
+	}
+	.stopka_linki_tytul{
+	margin-left: 20px;
+	margin-top: 40px;
+	font-weight: bolder;
+	font-size: 22px;
+	color: white;
+	}
+	.stopka_linki_artykuly{
+	margin-left: 20px;
+	color: white;
+	line-height: 1.4;
+	}
+
+
+	.stopka_tekst{
+	float:left;
+	height: 150px;
+	width: 25%;
+	}
+	.stopka_tekst_temat{
+	margin-top: 40px;
+	font-weight: bolder;
+	font-size: 22px;
+	color: white;
+	}
+	.stopka_tekst_artykul{
+	color: white;
+	}
+
+
+	.stopka_kontakt{
+	float:left;
+	height: 150px;
+	width: 31%;
+	}
+	.stopka_kontakt_logo{
+	height: 80px;
+	margin-top: 25px;
+	float:left;
+	}
+	.nazwa_firmy_stopka{
+	font-size: 2em;
+	margin-right: 30px;
+	float: right;
+	padding-top: 10px;
+	}
+	.opis_dzialalnosci_stopka{
+	float: right;
+	margin-right: 30px;
+	margin-top: -20px;
+	}
+
+
+	.location{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -40px;
+	}
+	.phone{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: -40px;
+	}
+
+	.phone_tekst{
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	color: white;
+	}
+	.location_tekst{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.stopka_menu{
+	float:left;
+	height: 150px;
+	width: 22%;
+	}
+
+	.stopka_menu p{
+	color: white;
+	font-weight: bolder;
+	font-size: 22px;
+	margin-left: 31%;
+	margin-top: 40px;
+	}
+	.stopka_menu ul li{
+	margin-left: 31%;
+	line-height: 2;
+	}
+	.stopka_menu ul li a{
+	color: white;
+	}
+
+
+	.stopka_linki{
+	float:left;
+	height: 150px;
+	width: 22%;
+	}
+	.stopka_linki_tytul{
+	margin-left: 20px;
+	margin-top: 40px;
+	font-weight: bolder;
+	font-size: 22px;
+	color: white;
+	}
+	.stopka_linki_artykuly{
+	margin-left: 20px;
+	color: white;
+	line-height: 1.4;
+	}
+
+
+	.stopka_tekst{
+	float:left;
+	height: 150px;
+	width: 25%;
+	}
+	.stopka_tekst_temat{
+	margin-top: 40px;
+	font-weight: bolder;
+	font-size: 22px;
+	color: white;
+	}
+	.stopka_tekst_artykul{
+	color: white;
+	}
+
+
+	.stopka_kontakt{
+	float:left;
+	height: 150px;
+	width: 31%;
+	}
+	.stopka_kontakt_logo{
+	height: 80px;
+	padding-left: 30px;
+	margin-top: 25px;
+	float:left;
+	}
+	.nazwa_firmy_stopka{
+	font-size: 2em;
+	float: right;
+	margin-right: 50px;
+	padding-top: 10px;
+	}
+	.opis_dzialalnosci_stopka{
+	float: right;
+	margin-right: 40px;
+	margin-top: -20px;
+	}
+	.location{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -40px;
+	}
+	.phone{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: -40px;
+	}
+	.phone_tekst{
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	color: white;
+	}
+	.location_tekst{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	}
+}
+
+
+.stopka_tekst_temat,
+.stopka_linki_tytul,
+.stopka_menu_tytul{
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.stopka_kontakt,
+.stopka_tekst_artykul,
+.stopka_linki_artykuly p,
+.stopka_menu nav ul li{
+	font-family: 'Poiret One', cursive;
+}
+
+.stopka_kontakt,
+.stopka_linki_artykuly p,
+.stopka_menu nav ul li{
+font-weight: bold;
+}
+
+.nazwa_firmy_stopka,
+.opis_dzialalnosci_stopka{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+@media screen and (max-width: 767px){
+	.copyright{
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-leftright: 15px;
+	border-bottom-left-radius: 15px;
+	}
+}
+
+.copyright{
+	height: 35px;
+	background-color: #6c6c6c;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.copyright p{
+	padding-top: 8px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu rozwijane-------------------------------------------------------------- */
+
+body {
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+*, *:before, *:after {
+  -webkit-border-sizing: border-box;
+  -moz-border-sizing: border-box;
+  border-sizing: border-box;
+}
+
+.container > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.menu-menuboczne-container li a {
+  text-decoration: none;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.menu-menuboczne-container li a {
+  position: relative;
+  display: block;
+  color: white;
+  background: #0052ae;
+
+  -moz-box-shadow: 0 1px 0 #409ad5 inset, 0 -1px 0 #20638f inset;
+  -webkit-box-shadow: 0 1px 0 #409ad5 inset, 0 -1px 0 #20638f inset;
+  box-shadow: 0 1px 0 #409ad5 inset, 0 -1px 0 #20638f inset;
+
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-menuboczne-container li a:hover {
+  background: #003877;
+  text-decoration: none;
+}
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+.lorem_ipsum_prawa_strona a{
+	color: black;
+}
+
+.lorem_ipsum_prawa_strona a:hover{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-item{
+	color: black!important;
+}
